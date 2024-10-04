@@ -1,0 +1,72 @@
+<style>
+        body {
+            font-family: sans-serif;
+            background-color: #e0f2f7; /* Cor de fundo aproximada */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .image-container {
+            width: 100%;
+        }
+
+        .image-container img {
+            width: 100%;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .plan-info {
+            background-color: #f9fbe7; /* Cor de fundo aproximada */
+            border: 1px solid #e0f2f7;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .plan-info .price {
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #4caf50; /* Cor verde do botão */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        button:last-of-type {
+            background-color: #f44336; /* Cor vermelha do botão */
+        }
+    </style>

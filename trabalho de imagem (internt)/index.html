@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo do Pedido</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #e0f2f7; /* Cor de fundo aproximada */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 300px;
+        }
+
+        .image-container {
+            width: 100%;
+        }
+
+        .image-container img {
+            width: 100%;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+        }
+
+        .plan-info {
+            background-color: #0e5f9e, #d93e41, #122331, #255e78, #deebff, #f2f5fc, #ffffff   ; /* Cor de fundo aproximada */
+            border: 1px solid #e0f2f7;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .plan-info .price {
+            font-weight: bold;
+        }
+
+        button {
+            background-color: #f44336; /* Cor verde do botão */
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            margin-bottom: 10px;
+            
+        }
+
+        button:last-of-type {
+            background-color: #ffffff00; /* Cor vermelha do botão */
+            color: black;
+            box-shadow: 2px 2px 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="listen.jpg" alt="Imagem de capa"> 
+        </div>
+        <div class="content">
+            <h2>Resumo de pedido</h2>
+            <p>Você pode ouvir milhões de músicas, áudio-livros e podcasts em qualquer dispositivo, onde você preferir!</p>
+            <div class="plan-info">
+                <div>
+                    <i class="fas fa-music"></i>  Plano anual
+                </div>
+                <div class="price">
+                    R$ 59,99/ano
+                </div>
+            </div>
+            <button>Continuar para Pagamento</button>
+            <button>Cancelar Pedido</button>
+        </div>
+    </div>
+</body>
+</html>
